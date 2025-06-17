@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/e90c6de48df84f13acf6b3e068cc2a88/artifacts
+end_time: 1750180457934
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e90c6de48df84f13acf6b3e068cc2a88
+run_name: funny-zebra-267
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750180452062
+status: 3
+tags: []
+user_id: runner
