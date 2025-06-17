@@ -41,6 +41,12 @@ jobs:
       - name: Run mlflow project
         run: |
           mlflow run MLproject --env-manager=local 
+
+      - name: Get latest MLflow run_id
+        run: |
+          RUN_ID=$(ls -td mlruns/0/*/ | head -n 1 | cut -d'/' -f3)
+          echo "RUN_ID=$RUN_ID" >> $GITHUB_ENV
+          echo "Latest run_id: $RUN_ID"
  
       # Save models to GitHub Repository
       - name: Save mlruns to repo
