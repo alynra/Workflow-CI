@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/9532463d976a470bbca988e10c7c632a/artifacts
+end_time: 1750137638931
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9532463d976a470bbca988e10c7c632a
+run_name: puzzled-fowl-223
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750137632973
+status: 3
+tags: []
+user_id: runner
